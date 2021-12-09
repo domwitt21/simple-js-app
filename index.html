@@ -6,12 +6,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Simple JS App</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
 
     <body>
-
+        <header class="header-logo">
+            <h1 class="header-text">POKEDEX</h1>
+        </header>
+        <main class="content-section">
+            <div class="search-bar-container">
+                <form action="POST" class="search-bar-form">
+                    <label for="search">Search Pokemon</label>
+                    <input type="search" id="search" name="search" class="search-bar">
+                </form>
+            </div>
+        </main>
         <script src="js/scripts.js"></script>
     </body>
 
-</html>
+</html> 
